@@ -23,7 +23,7 @@ Provide a data-driven investigation of startup ecosystems: sourcing and cleaning
 
 ## Typical contents (what to expect inside folders)
 
-- cleaned dataset/
+- Cleaned Dataset/
   - processed CSV(s) or Parquet files such as cleaned_startups.csv — canonical inputs for analysis.
   - a README or data-dictionary describing columns (create if missing).
 - Dashboard/
@@ -68,7 +68,7 @@ If any of the above items are missing, add a short manifest file in each folder 
 - src/ or analysis/ — modular analysis scripts, functions, and utilities (to avoid heavyweight notebooks).
 - tests/ — basic unit tests for data validation and processing.
 
-## Best practices and reproducibility
+## Best Practices and Reproducibility
 
 - Keep raw data separate from cleaned/processed data (this repo contains cleaned datasets).
 - Make cleaning scripts deterministic and idempotent; store random seeds for any sampling.
